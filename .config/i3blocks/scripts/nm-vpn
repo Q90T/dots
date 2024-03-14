@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+nmcli c show --active | grep vpn >/dev/null && echo "<span foreground='#89b4fa' background='#1e1e2e' size='x-large'></span><span background='#89b4fa'> <span foreground='#1e1e2e' size='large' rise='1pt'></span> </span><span background='#89b4fa' foreground='#1e1e2e' size='x-large'></span>" || echo "<span foreground='#89b4fa' background='#1e1e2e' size='x-large'></span><span background='#89b4fa'> <span foreground='#f38ba8' size='large' rise='1pt'></span> </span><span background='#89b4fa' foreground='#1e1e2e' size='x-large'></span>"
