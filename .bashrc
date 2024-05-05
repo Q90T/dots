@@ -32,3 +32,6 @@ alias ncp='ncmpcpp'
 
 #anime cli
 alias anime='ani-cli'
+
+#Tlauncher start
+alias mc='./scripts/mc.sh'
